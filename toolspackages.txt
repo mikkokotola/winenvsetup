@@ -1,0 +1,6 @@
+googlechrome
+firefox
+7zip
+git
+vscode
+docker-desktop
