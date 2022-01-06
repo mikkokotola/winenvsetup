@@ -12,13 +12,10 @@ Preconditions: Win10/Win10pro/Win11 installed
 1. Activate WSL2 & set linux user creds
 - https://docs.microsoft.com/en-us/windows/wsl/setup/environment
 
-2. Install Docker Desktop on Windows
-- https://docs.docker.com/desktop/windows/install/
-
-3. Set Powershell default execution policy for user
+2. Set Powershell default execution policy for user
 - In admin powershell, run `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser -Force`
 
-4. Install Chocolatey Package Manager and packages using script
+3. Install Chocolatey Package Manager and packages using script
 - Make sure you are in the root dir of this repo
 - In admin powershell, run `.\InstallTools.ps1`. This will install Choco and use it to install all packages listed in toolspackages.txt.
 
