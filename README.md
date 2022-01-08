@@ -19,3 +19,6 @@ Preconditions: Win10/Win10pro/Win11 installed
 - Make sure you are in the root dir of this repo
 - In admin powershell, run `.\InstallTools.ps1`. This will install Choco and use it to install all packages listed in toolspackages.txt.
 
+4. Install AWS SAM CLI
+- Not available through Choco
+- https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install-windows.html

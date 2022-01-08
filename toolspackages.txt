@@ -3,4 +3,8 @@ firefox
 7zip
 git
 vscode
+python3
+miniconda3
+awscli
+gcloudsdk
 docker-desktop
