@@ -3,6 +3,7 @@ firefox
 7zip
 git
 vscode
+nodejs
 python3
 miniconda3
 awscli
