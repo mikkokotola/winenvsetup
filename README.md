@@ -6,6 +6,7 @@ Preconditions: Win10/Win10pro/Win11 installed
 ## Repo contents
 - [InstallTools.ps1](InstallTools.ps1) contains a powershell script to install Chocolatey (if not installed) and then install all the packages listed in [toolspackages.txt](toolspackages.txt) using Choco. 
 - [toolspackages.txt](toolspackages.txt) contains a list of packages to install in Windows
+- [checksha512.ps1](checksha512.ps1) contains a Powershell script for checking the SHA512 of a file against the SHA512 value given in a second file. Usage like `checksha512.ps1 file1.exe file1.exe.sha512`
 
 ## Instructions
 
@@ -22,3 +23,20 @@ Preconditions: Win10/Win10pro/Win11 installed
 4. Install AWS SAM CLI
 - Not available through Choco
 - https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install-windows.html
+
+5. Install AWS CloudFormation Linter
+- Install CFN-lint and Pydot (visualizing) with pip using `pip install cfn-lint` and `pip install pydot`
+
+6. Install NoSQL Workbench for Amazon DynamoDB
+- https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/workbench.settingup.html
+
+7. Install VS Code extensions
+- Python
+- Jupyter
+- Go
+- AWS Toolkit
+- CloudFormation Linter
+- Git Extension Pack
+- Git Graph
+- Docker
+
