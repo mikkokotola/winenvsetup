@@ -3,6 +3,7 @@ firefox
 7zip
 git
 vscode
+postman
 nodejs
 python3
 miniconda3
